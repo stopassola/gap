@@ -1,0 +1,6 @@
+{
+    "require": {
+        "robmorgan/phinx": "^0.4.6",
+        "phpoffice/phpword": "^0.12.1"
+    }
+}
