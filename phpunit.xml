@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- o atributo bootstrap indica o script que deve ser invocado ANTES dos testes -->
+<phpunit colors="true" bootstrap="tests/autoload.php">
+    <testsuites>
+        <testsuite name="Testes do GAP: Gerador Automatico de Peticoes">
+            <!-- o atributo suffix indica quais scripts devam ser analisados -->
+            <directory suffix="Test.php">tests</directory>
+        </testsuite>
+    </testsuites>
+    
+    <filter>
+        <whitelist>
+            <directory>src</directory>
+        </whitelist>
+    </filter>        
+</phpunit>
